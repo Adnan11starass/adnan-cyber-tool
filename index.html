@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adnan Cyber Tool</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+background:black;
+color:#00ff00;
+font-family:monospace;
+margin:0;
+font-size:13px;
+}
+
+header{
+padding:15px;
+text-align:center;
+font-size:26px;
+border-bottom:1px solid #00ff00;
+}
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:10px;
+padding:10px;
+}
+
+.box{
+border:1px solid #00ff00;
+padding:10px;
+background:#010101;
+box-shadow:0 0 6px #00ff00;
+}
+
+h2{
+margin-top:0;
+font-size:15px;
+}
+
+input{
+width:100%;
+padding:5px;
+margin-top:5px;
+background:black;
+border:1px solid #00ff00;
+color:#00ff00;
+font-size:12px;
+}
+
+button{
+width:100%;
+padding:6px;
+margin-top:6px;
+background:#00ff00;
+border:none;
+color:black;
+font-weight:bold;
+cursor:pointer;
+font-size:12px;
+}
+
+pre{
+white-space:pre-wrap;
+font-size:12px;
+margin-top:5px;
+}
+
+a{
+color:#00ff00;
+font-size:12px;
+}
+
+.tool-title{
+text-align:center;
+font-size:44px;
+margin-top:25px;
+padding:18px;
+border-top:2px solid #00ff00;
+border-bottom:2px solid #00ff00;
+letter-spacing:5px;
+font-weight:bold;
+text-shadow:0 0 10px #00ff00,0 0 20px #00ff00,0 0 40px #00ff00;
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{
+text-shadow:0 0 5px #00ff00;
+}
+to{
+text-shadow:0 0 30px #00ff00,0 0 60px #00ff00;
+}
+}
+
+.grid-tools{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(90px,1fr));
+gap:4px;
+max-height:200px;
+overflow:auto;
+}
+
+.tool{
+border:1px solid #00ff00;
+padding:3px;
+font-size:10px;
+text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<header> ADNAN 11 STAR </header>
+
+<div class="tool-title">
+ ADNAN CYBER TOOL
+</div>
+
+<div class="container">
+
+<div class="box">
+<h2>Facebook Disabled Appeal</h2>
+
+<input id="fbname" placeholder="Facebook Name">
+<input id="fbemail" placeholder="Email">
+<input id="fbnumber" placeholder="Phone Number">
+<input id="fbbirth" placeholder="Birthday">
+
+<button onclick="fb()">Generate Appeal</button>
+
+<pre id="fbresult"></pre>
+
+<p>
+Email: facebook.android@fb.com<br>
+Subject: Disabled Facebook Account Recovery
+</p>
+</div>
+
+<div class="box">
+<h2>Facebook Imposter Report</h2>
+
+<button onclick="imposter()">Generate Report</button>
+
+<pre id="impostertext"></pre>
+
+<p>
+Imposter Report Link<br>
+<a href="https://www.facebook.com/help/contact/295309487309948" target="_blank">
+Open Report Form
+</a>
+</p>
+
+</div>
+
+<div class="box">
+
+<h2>Facebook New Report Update</h2>
+
+<a href="https://m.facebook.com/help/contact/725651070269668" target="_blank">
+Open Facebook Reporting Form
+</a>
+
+<p>
+Use this link to submit a new Facebook report.
+</p>
+
+</div>
+
+<div class="box">
+
+<h2>TikTok Copyright Report</h2>
+
+<pre>
+
+Hello sir,
+This person has copied my website photo and is harassing badly.
+I am giving screenshot as proof.
+
+Please review this report and remove it.
+
+</pre>
+
+</div>
+
+<div class="box">
+
+<h2>TikTok Reporting</h2>
+
+<pre>
+
+This content is violating community guidelines
+by spreading false information and using
+inappropriate language.
+
+Please review and take necessary action.
+
+</pre>
+
+<a href="https://www.tiktok.com/legal/report/feedback" target="_blank">
+TikTok Report Link
+</a>
+
+</div>
+
+<div class="box">
+
+<h2>TikTok Account Unban Appeal</h2>
+
+<pre>
+
+Hello TikTok Support,
+
+My TikTok account was banned by mistake.
+
+Please review my account and restore access.
+
+Thank you.
+
+</pre>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<div class="box">
+
+<h2>Future Tools</h2>
+
+<div class="grid-tools">
+
+<div class="tool">IP Lookup</div>
+<div class="tool">Geo IP</div>
+<div class="tool">DNS Lookup</div>
+<div class="tool">Port Scanner</div>
+<div class="tool">Server Status</div>
+<div class="tool">HTTP Header</div>
+<div class="tool">Whois Lookup</div>
+<div class="tool">Email Breach</div>
+<div class="tool">Username Finder</div>
+<div class="tool">Dark Web Scan</div>
+<div class="tool">Password Check</div>
+<div class="tool">VPN Test</div>
+<div class="tool">MAC Lookup</div>
+<div class="tool">Traceroute</div>
+<div class="tool">Network Info</div>
+<div class="tool">System Info</div>
+<div class="tool">QR Generator</div>
+<div class="tool">Link Shortener</div>
+<div class="tool">Cookie Info</div>
+<div class="tool">Packet Tool</div>
+<div class="tool">Matrix Mode</div>
+<div class="tool">Cyber Tips</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+function fb(){
+
+let name=document.getElementById("fbname").value;
+let email=document.getElementById("fbemail").value;
+let number=document.getElementById("fbnumber").value;
+let birth=document.getElementById("fbbirth").value;
+
+let msg=`Hello Facebook Team,
+
+Sir my personal facebook account was disabled without any reason and you disabled my account due to against Facebook Community Standards. I know it's done by mistake.
+
+So I request you please review my appeal and reopen my Facebook account as soon as possible.
+
+My account Information:
+
+Facebook Name: ${name}
+Email: ${email}
+Number: ${number}
+Birthday: ${birth}
+
+`;
+
+document.getElementById("fbresult").textContent=msg;
+
+}
+
+function imposter(){
+
+let text=`This account is impersonating me by using my real name and exact date of birth.
+
+I am the legitimate owner of this identity. The person is pretending to be me without my permission which violates Facebook impersonation policy.
+
+I have attached my official Registration Certificate issued by Government of Pakistan as proof.
+
+Please review this report urgently and permanently remove this fake account.`;
+
+document.getElementById("impostertext").textContent=text;
+
+}
+
+</script>
+
+</body>
+</html>
+<div class="box">
+
+<h2>Future Cyber Tools</h2>
+
+<div class="grid-tools">
+
+<a class="tool" target="_blank" href="https://ipinfo.io/">IP Lookup</a>
+
+<a class="tool" target="_blank" href="https://whatismyipaddress.com/ip-lookup">IP Tracker</a>
+
+<a class="tool" target="_blank" href="https://dnschecker.org/ip-location.php">Geo IP</a>
+
+<a class="tool" target="_blank" href="https://who.is/">WHOIS Lookup</a>
+
+<a class="tool" target="_blank" href="https://dnschecker.org/">DNS Lookup</a>
+
+<a class="tool" target="_blank" href="https://mxtoolbox.com/SuperTool.aspx">Server Checker</a>
+
+<a class="tool" target="_blank" href="https://downforeveryoneorjustme.com/">Server Status</a>
+
+<a class="tool" target="_blank" href="https://haveibeenpwned.com/">Email Breach</a>
+
+<a class="tool" target="_blank" href="https://dehashed.com/">Email Leak Search</a>
+
+<a class="tool" target="_blank" href="https://checkusernames.com/">Username Finder</a>
+
+<a class="tool" target="_blank" href="https://namechk.com/">Username Checker</a>
+
+<a class="tool" target="_blank" href="https://instantusername.com/">Username Generator</a>
+
+<a class="tool" target="_blank" href="https://snusbase.com/">Dark Web Checker</a>
+
+<a class="tool" target="_blank" href="https://www.dehashed.com/search">Dark Web Search</a>
+
+<a class="tool" target="_blank" href="https://www.shodan.io/">Shodan Search</a>
+
+<a class="tool" target="_blank" href="https://www.virustotal.com/">Virus Scan</a>
+
+<a class="tool" target="_blank" href="https://urlscan.io/">URL Scanner</a>
+
+<a class="tool" target="_blank" href="https://securityheaders.com/">Security Headers</a>
+
+<a class="tool" target="_blank" href="https://pentest-tools.com/">PenTest Tools</a>
+
+<a class="tool" target="_blank" href="https://www.torproject.org/">Tor Browser</a>
+
+<a class="tool" target="_blank" href="https://browserleaks.com/">Browser Leak Test</a>
+
+<a class="tool" target="_blank" href="https://ipleak.net/">IP Leak Test</a>
+
+<a class="tool" target="_blank" href="https://speedtest.net/">Speed Test</a>
+
+<a class="tool" target="_blank" href="https://iplocation.net/">IP Location</a>
+
+<a class="tool" target="_blank" href="https://crt.sh/">Certificate Search</a>
+
+<a class="tool" target="_blank" href="https://www.robtex.com/">Robtex DNS</a>
+
+<a class="tool" target="_blank" href="https://www.exploit-db.com/">Exploit Database</a>
+
+<a class="tool" target="_blank" href="https://gtmetrix.com/">Website Speed</a>
+
+<a class="tool" target="_blank" href="https://tinyurl.com/">Link Shortener</a>
+
+<a class="tool" target="_blank" href="https://qr-code-generator.com/">QR Generator</a>
+
+<a class="tool" target="_blank" href="https://temp-mail.org/">Temp Mail</a>
+
+<a class="tool" target="_blank" href="https://10minutemail.com/">10 Minute Mail</a>
+
+<a class="tool" target="_blank" href="https://www.censys.io/">Censys Search</a>
+
+<a class="tool" target="_blank" href="https://osintframework.com/">OSINT Framework</a>
+
+<a class="tool" target="_blank" href="https://intelx.io/">IntelX Search</a>
+
+<a class="tool" target="_blank" href="https://hunter.io/">Email Finder</a>
+
+<a class="tool" target="_blank" href="https://www.reverseipdomain.com/">Reverse IP</a>
+
+<a class="tool" target="_blank" href="https://network-tools.com/">Network Tools</a>
+
+<a class="tool" target="_blank" href="https://ipvoid.com/">IP Reputation</a>
+
+<a class="tool" target="_blank" href="https://hackertarget.com/">HackerTarget</a>
+
+<a class="tool" target="_blank" href="https://pentest-tools.com/information-gathering/google-hacking">Google Dork</a>
+
+<a class="tool" target="_blank" href="https://www.whatsmydns.net/">DNS Propagation</a>
+
+<a class="tool" target="_blank" href="https://bgp.he.net/">BGP Toolkit</a>
+
+<a class="tool" target="_blank" href="https://wappalyzer.com/">Technology Finder</a>
+
+<a class="tool" target="_blank" href="https://sucuri.net/">Website Malware Scan</a>
+
+<a class="tool" target="_blank" href="https://securitytrails.com/">SecurityTrails</a>
+
+<a class="tool" target="_blank" href="https://greynoise.io/">GreyNoise</a>
+
+<a class="tool" target="_blank" href="https://urlvoid.com/">URL Reputation</a>
+
+<a class="tool" target="_blank" href="https://subdomainfinder.c99.nl/">Subdomain Finder</a>
+
+<a class="tool" target="_blank" href="https://archive.org/">Wayback Machine</a>
+
+<a class="tool" target="_blank" href="https://check-host.net/">Check Host</a>
+
+<a class="tool" target="_blank" href="https://analyzeid.com/">Social Media Finder</a>
+
+<a class="tool" target="_blank" href="https://hunter.io/email-verifier">Email Verifier</a>
+
+<a class="tool" target="_blank" href="https://haveibeenpwned.com/Passwords">Password Leak Check</a>
+
+</div>
+
+</div>
